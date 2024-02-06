@@ -9,4 +9,4 @@ How to Run:
 3. Build and run the image.  In this example, we'll name our image "powershell-api".
     * `docker build -t powershell-api .`
     * `docker run -p 8080:8080 powershell-api`
-4. Open your browser to http://localhost:8080
+4. Open your browser to http://localhost:8080/
