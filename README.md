@@ -1,7 +1,9 @@
-# powershell-in-docker
+# Powershell in Docker
+
 Example of running a PowerShell API in Docker.
 
 How to Run:
+
 1. Have docker installed.
 2. In your command prompt, clone this repository and enter the directory.
     * `git clone https://github.com/Nylex-net/powershell-in-docker`
@@ -9,4 +11,4 @@ How to Run:
 3. Build and run the image.  In this example, we'll name our image "powershell-api".
     * `docker build -t powershell-api .`
     * `docker run -p 8080:8080 powershell-api`
-4. Open your browser to http://localhost:8080/
+4. Open your browser to <http://localhost:8080/>
